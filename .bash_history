@@ -37,3 +37,14 @@ git remote -v
 git add .
 git commit -m :second chanses"
 
+git remote -v
+git add
+git add .
+git commit -m "2nd changes"
+git push origin master https://github.com/mou597/Jaya.git
+git push https://<YOUR_GITHUB_USERNAME>:<YOUR_PERSONAL_ACCESS_TOKEN>@github.com/mou597/AZ-104-MicrosoftAzureAdministrator.git
+git remote add origin https://github.com/mou597/Jaya.git
+git push origin master
+git pull origin master --rebase
+git push origin master
+git log
